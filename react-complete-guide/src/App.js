@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import ExpenseItem from './components/ExpenseItem';
 
 function App() {
+
+  const expenseTitle = "Fuel"
+  const expenseDate = new Date(2021,11,22)
+  const expenseAmount = 2000
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          This is Dinesh
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Learning React</h1>
+      <ExpenseItem expenseItemName={expenseTitle} expenseAmount={expenseAmount} expenseDate={expenseDate}/>
+      <ExpenseItem expenseItemName={expenseTitle} expenseAmount={expenseAmount} expenseDate={expenseDate}/>
+      <ExpenseItem expenseItemName={expenseTitle} expenseAmount={expenseAmount} expenseDate={expenseDate}/>
     </div>
   );
 }

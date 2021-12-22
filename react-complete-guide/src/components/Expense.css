@@ -1,0 +1,33 @@
+.expense {
+  height: 10em;
+  width: 50em;
+  display: flex;
+  flex-direction: colusmn;
+  align-items: center;
+  justify-content: center;
+  color: rgb(209, 19, 19);
+}
+.expense__date {
+  background-color: #145ec5;
+  font-size: 1em;
+  height: 5em;
+  width: 20em;
+  align-items: center;
+  justify-content: center;
+}
+.expense__amount {
+  background-color: #33e933;
+  font-size: 1em;
+  height: 5em;
+  width: 20em;
+  align-items: center;
+  justify-content: center;
+}
+.expense__name {
+  background-color: #f1d554;
+  font-size: 1em;
+  height: 5em;
+  width: 20em;
+  align-items: center;
+  justify-content: center;
+}
